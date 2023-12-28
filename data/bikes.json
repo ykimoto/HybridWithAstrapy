@@ -1,0 +1,874 @@
+[
+    {
+        "model": "Jigger",
+        "brand": "Velorim",
+        "price": 270,
+        "type": "Kids bikes",
+        "description": "Small and powerful, the Jigger is the best ride for the smallest of tikes! This is the tiniest kids’ pedal bike on the market available without a coaster brake, the Jigger is the vehicle of choice for the rare tenacious little rider raring to go. We say rare because this smokin’ little bike is not ideal for a nervous first-time rider, but it’s a true giddy up for a true speedster. The Jigger is a 12 inch lightweight kids bicycle and it will meet your little one’s need for speed. It’s a single speed bike that makes learning to pump pedals simple and intuitive. It even has  a handle in the bottom of the saddle so you can easily help your child during training!  The Jigger is among the most lightweight children’s bikes on the planet. It is designed so that 2-3 year-olds fit comfortably in a molded ride position that allows for efficient riding, balanced handling and agility. The Jigger’s frame design and gears work together so your buddingbiker can stand up out of the seat, stop rapidly, rip over trails and pump tracks. The Jigger’s is amazing on dirt or pavement. Your tike will speed down the bike path in no time. The Jigger will ship with a coaster brake. A freewheel kit is provided at no cost. "
+    },
+    {
+        "model": "Hillcraft",
+        "brand": "Bicyk",
+        "price": 1200,
+        "type": "Kids Mountain Bikes",
+        "description": "Kids want to ride with as little weight as possible. Especially on an incline! They may be at the age when a 27.5\" wheel bike is just too clumsy coming off a 24\" bike. The Hillcraft 26 is just the solution they need! Imagine 120mm travel. Boost front/rear.  You have NOTHING to tweak because it is easy to assemble right out of the box. The Hillcraft 26 is an efficient trail trekking machine. Up or down does not matter - dominate the trails going both down and up with this amazing bike. The name Monarch comes from Monarch trail in Colorado where we love to ride.  It’s a highly technical, steep and rocky trail but the rip on the waydown is so fulfilling.  Don’t ride the trail on a hardtail! It is so much more fun on the full suspension Hillcraft!  Hit your local trail with the Hillcraft Monarch 26 to get to where you want to go.  "
+    },
+    {
+        "model": "Chook air 5",
+        "brand": "Nord",
+        "price": 815,
+        "type": "Kids Mountain Bikes",
+        "description": "The Chook Air 5  gives kids aged six years and older a durable and uberlight mountain bike for their first experience on tracks and easy cruising through forests and fields. The lower  top tube makes it easy to mount and dismount in any situation, giving your kids greater safety on the trails. The Chook Air 5 is the perfect intro to mountain biking."
+    },
+    {
+        "model": "Eva 291",
+        "brand": "Eva",
+        "price": 3400,
+        "type": "Mountain Bikes",
+        "description": "The sister company to Nord, Eva launched in 2005 as the first and only women-dedicated bicycle brand. Designed by women for women, allEva bikes are optimized for the feminine physique using analytics from a body metrics database. If you like 29ers, try the Eva 291. It’s a brand new bike for 2022.. This full-suspension, cross-country ride has been designed for velocity. The 291 has 100mm of front and rear travel, a superlight aluminum frame and fast-rolling 29-inch wheels. Yippee!"
+    },
+    {
+        "model": "Kahuna",
+        "brand": "Noka Bikes",
+        "price": 3200,
+        "type": "Mountain Bikes",
+        "description": "Whether you want to try your hand at XC racing or are looking for a lively trail bike that's just as inspiring on the climbs as it is over rougher ground, the Wilder is one heck of a bike built specifically for short women. Both the frames and components have been tweaked to include a women’s saddle, different bars and unique colourway."
+    },
+    {
+        "model": "XBN 2.1 Alloy",
+        "brand": "Breakout",
+        "price": 810,
+        "type": "Road Bikes",
+        "description": "The XBN 2.1 Alloy is our entry-level road bike – but that’s not to say that it’s a basic machine. With an internal weld aluminium frame, a full carbon fork, and the slick-shifting Claris gears from Shimano’s, this is a bike which doesn’t break the bank and delivers craved performance. The 6061 alloy frame is triple-butted which ensures a lighter weight and smoother ride. And it’s comfortable with dropped seat stays and the carbon fork. The carefully crafted 50-34 tooth chainset and 11-32 tooth cassette give an easy-on-the-legs bottom gear for climbing, and the high-quality Vittoria Zaffiro tires balance grip, rolling friction and puncture protection when coasting down the other side.  "
+    },
+    {
+        "model": "WattBike",
+        "brand": "ScramBikes",
+        "price": 2300,
+        "type": "eBikes",
+        "description": "The WattBike is the best e-bike for people who still feel young at heart. It has a  Bafang 500 watt geared hub motor that can reach 20 miles per hour on both steep inclines and city streets. The lithium-ion battery, which gets nearly 40 miles per charge, has a lightweight form factor, making it easier for seniors to use. It comes fully assembled (no convoluted instructions!) and includes a sturdy helmet at no cost. The Plush saddle softens over time with use. The included Seatpost, however, is easily adjustable and adds to this bike’s fantastic rating for seniors, as do the hydraulic disc brakes from Tektro.  "
+    },
+    {
+        "model": "RadPower RadCity 5 Plus",
+        "brand": "Rad Power Bikes",
+        "price": 1600,
+        "type": "eBikes",
+        "image": "https://i.imgur.com/666666.jpg",
+        "description": "The RadCity 5 Plus is a versatile e-bike that's perfect for commuting, running errands, and exploring. It has a powerful motor and a large battery that can handle hills and long distances with ease. It also has a variety of features that make it comfortable and practical, such as a step-through frame, a rear rack, and fenders."
+    },
+    {
+        "model": "Blix Sol Eclipse",
+        "brand": "Blix Bikes",
+        "price": 1800,
+        "type": "eBikes",
+        "image": "https://i.imgur.com/bbbbbbbbb.jpg",
+        "description": "The Blix Sol Eclipse is a stylish and comfortable e-bike that's perfect for commuting and running errands. It has a powerful motor and a large battery that can handle hills and long distances with ease. It also has a variety of features that make it comfortable and practical, such as a step-through frame, a rear rack, and fenders."
+    },
+    {
+        "model": "Lectric XP 3.0 ST",
+        "brand": "Lectric Bikes",
+        "price": 999,
+        "type": "eBikes",
+        "image": "https://i.imgur.com/ccccccccccc.jpg",
+        "description": "The Lectric XP 3.0 ST is an affordable and versatile e-bike that's perfect for commuting, running errands, and exploring. It has a powerful motor and a large battery that can handle hills and long distances with ease. It also has a variety of features that make it comfortable and practical, such as a step-through frame, a rear rack, and fenders."
+    },
+    {
+        "model": "Rad Power Bikes RadTrike",
+        "brand": "Rad Power Bikes",
+        "price": 1900,
+        "type": "eBikes",
+        "image": "https://i.imgur.com/dddddddddddd.jpg",
+        "description": "The Rad Power Bikes RadTrike is a stable and comfortable e-bike that's perfect for people of all ages and abilities. It has a powerful motor and a large battery that can handle hills and long distances with ease. It also has a variety of features that make it comfortable and practical, such as a step-through frame, a rear basket, and fenders."
+    },
+    {
+        "model": "Specialized Turbo Como IGH",
+        "brand": "Specialized Bikes",
+        "price": 2800,
+        "type": "eBikes",
+        "image": "https://i.imgur.com/eeeeeeeeeeeeee.jpg",
+        "description": "The Specialized Turbo Como IGH is a comfortable and stylish e-bike that's perfect for commuting and running errands. It has a powerful motor and a large battery that can handle hills and long distances with ease. It also has a variety of features that make it comfortable and practical, such as a step-through frame, a rear rack, and fenders."
+    },
+    {
+        "model": "Electric Bike Company Model S",
+        "brand": "Electric Bike Company",
+        "price": 1500,
+        "type": "eBikes",
+        "image": "https://i.imgur.com/fffffffffffff.jpg",
+        "description": "The Electric Bike Company Model S is a versatile and affordable e-bike that's perfect for commuting, running errands, and exploring. It has a powerful motor and a large battery that can handle hills and long distances with ease. It also has a variety of features that make it comfortable and practical, such as a step-through frame, a rear rack, and fenders."
+    },
+    {
+        "model": "Aventon Level Step-Through",
+        "brand": "Aventon Bikes",
+        "price": 1200,
+        "type": "eBikes",
+        "image": "https://i.imgur.com/777777.jpg",
+        "description": "The Aventon Level Step-Through is a stylish and affordable e-bike that's perfect for urban riding. It has a lightweight frame and a powerful motor that can easily handle city streets and hills. It also has a variety of features that make it comfortable and practical, such as a step-through frame, a rear rack, and fenders."
+    },
+    {
+        "model": "Specialized Turbo Como 4.0",
+        "brand": "Specialized Bikes",
+        "price": 2500,
+        "type": "eBikes",
+        "image": "https://i.imgur.com/888888.jpg",
+        "description": "The Specialized Turbo Como 4.0 is a comfortable and stylish e-bike that's perfect for commuting and running errands. It has a powerful motor and a large battery that can handle hills and long distances with ease. It also has a variety of features that make it comfortable and practical, such as a step-through frame, a rear rack, and fenders."
+    },
+    {
+        "model": "Trek Verve+ 3 Lowstep",
+        "brand": "Trek Bikes",
+        "price": 2000,
+        "type": "eBikes",
+        "image": "https://i.imgur.com/999999.jpg",
+        "description": "The Trek Verve+ 3 Lowstep is a comfortable and stylish e-bike that's perfect for commuting and running errands. It has a powerful motor and a large battery that can handle hills and long distances with ease. It also has a variety of features that make it comfortable and practical, such as a step-through frame, a rear rack, and fenders."
+    },
+    {
+        "model": "Soothe Electric bike",
+        "brand": "Peaknetic",
+        "price": 1950,
+        "type": "eBikes",
+        "description": "The Soothe is an everyday electric bike, from the makers of Exercycle  bikes, that conveys style while you get around the city. The Soothe lives up to its name by keeping your posture upright and relaxed for the ride ahead, keeping those aches and pains from riding at bay. It includes a low-step frame , our memory foam seat, bump-resistant shocks and conveniently placed thumb throttle. "
+    },
+    {
+        "model": "Secto",
+        "brand": "Peaknetic",
+        "price": 430,
+        "type": "Commuter bikes",
+        "description": "If you struggle with stiff fingers or a kinked neck or back after a few minutes on the road, this lightweight, aluminum bike alleviates those issues and allows you to enjoy the ride. From the ergonomic grips to the lumbar-supporting seat position, the Roll Low-Entry offers incredible comfort. The rear-inclined seat tube facilitates stability by allowing you to put a foot on the ground to balance at a stop, and the low step-over frame makes it accessible for all ability and mobility levels. The saddle is very soft, with a wide back to support your hip joints and a cutout in the center to redistribute that pressure. Rim brakes deliver satisfactory braking control, and the wide tires provide a smooth, stable ride on paved roads and gravel. Rack and fender mounts facilitate setting up the Roll Low-Entry as your preferred commuter, and the BMX-like handlebar offers space for mounting a flashlight, bell, or phone holder."
+    },
+    {
+        "model": "Summit",
+        "brand": "nHill",
+        "price": 1200,
+        "type": "Mountain Bike",
+        "description": "This budget mountain bike from nHill performs well both on bike paths and on the trail. The fork with 100mm of travel absorbs rough terrain. Fat Kenda Booster tires give you grip in corners and on wet trails. The Shimano Tourney drivetrain offered enough gears for finding a comfortable pace to ride uphill, and the Tektro hydraulic disc brakes break smoothly. Whether you want an affordable bike that you can take to work, but also take trail riding on the weekends or you’re just after a stable, comfortable ride for the bike path, the Summit gives a good value for money."
+    },
+    {
+        "model": "ThrillCycle",
+        "brand": "BikeShind",
+        "price": 815,
+        "type": "Commuter Bikes",
+        "description": "An artsy,  retro-inspired bicycle that’s as functional as it is pretty: The ThrillCycle steel frame offers a smooth ride. A 9-speed drivetrain has enough gears for coasting in the city, but we wouldn’t suggest taking it to the mountains. Fenders protect you from mud, and a rear basket lets you transport groceries, flowers and books. The ThrillCycle comes with a limited lifetime warranty, so this little guy will last you long past graduation."
+    },
+    {
+        "model": "Ripper",
+        "brand": "Coaster",
+        "price": 320,
+        "type": "Kids bikes",
+        "description": "The Ripper is the perfect bike for kids who are ready to take their riding to the next level. It features a lightweight aluminum frame, 20-inch wheels, and a durable drivetrain. The Ripper is also equipped with front and rear suspension, making it ideal for riding on trails or in the city. "
+    },
+    {
+        "model": "Trailblazer",
+        "brand": "Mongoose",
+        "price": 450,
+        "type": "Kids bikes",
+        "description": "The Trailblazer is a great bike for kids who love to explore. It features a rugged steel frame, 24-inch wheels, and a wide range of gears. The Trailblazer is also equipped with front and rear disc brakes, providing powerful stopping power in all conditions. "
+    },
+    {
+        "model": "Nitro",
+        "brand": "GT",
+        "price": 500,
+        "type": "Kids bikes",
+        "description": "The Nitro is a high-performance bike for kids who are serious about racing. It features a lightweight carbon fiber frame, 26-inch wheels, and a high-end drivetrain. The Nitro is also equipped with front and rear hydraulic disc brakes, providing superior stopping power. "
+    },
+    {
+        "model": "Hillcraft Cargo Bike",
+        "brand": "Bicyk",
+        "price": 1800,
+        "type": "Utility Bikes",
+        "description": "The Hillcraft Cargo Bike is a great way to transport groceries, kids, or other cargo around town. It's sturdy and durable, and it has plenty of storage space."
+    },
+    {
+        "model": "Hillcraft Electric Bike",
+        "brand": "Bicyk",
+        "price": 2500,
+        "type": "Electric Bikes",
+        "description": "The Hillcraft Electric Bike is a great way to get around town without breaking a sweat. It's easy to ride and it has a long range."
+    },
+    {
+        "model": "Hillcraft Tandem Bike",
+        "brand": "Bicyk",
+        "price": 2000,
+        "type": "Tandem Bikes",
+        "description": "The Hillcraft Tandem Bike is a great way to ride with a friend or loved one. It's comfortable to ride and it's a lot of fun."
+    },
+    {
+        "model": "Hillcraft Recumbent Bike",
+        "brand": "Bicyk",
+        "price": 2200,
+        "type": "Recumbent Bikes",
+        "description": "The Hillcraft Recumbent Bike is a great way to ride comfortably and efficiently. It's easy on your back and neck, and it's a lot of fun to ride."
+    },
+    {
+        "model": "Hillcraft Folding Bike",
+        "brand": "Bicyk",
+        "price": 1600,
+        "type": "Folding Bikes",
+        "description": "The Hillcraft Folding Bike is a great way to get around town without having to worry about parking. It's easy to fold and unfold, and it's lightweight and portable."
+    },
+    {
+        "model": "Hillcraft Fat Bike",
+        "brand": "Bicyk",
+        "price": 2400,
+        "type": "Fat Bikes",
+        "description": "The Hillcraft Fat Bike is a great way to ride on sand, snow, and other challenging terrain. It has wide tires and a powerful motor that can handle anything you throw at it."
+    },
+    {
+        "model": "Hillcraft BMX Bike",
+        "brand": "Bicyk",
+        "price": 1000,
+        "type": "BMX Bikes",
+        "description": "The Hillcraft BMX Bike is a great way to learn tricks and stunts. It's lightweight and durable, and it has all the features you need to have a good time."
+    },
+    {
+        "model": "Hillcraft Cruiser Bike",
+        "brand": "Bicyk",
+        "price": 1200,
+        "type": "Cruiser Bikes",
+        "description": "The Hillcraft Cruiser Bike is a great way to ride in style. It's comfortable and easy to ride, and it's sure to turn heads wherever you go."
+    },
+    {
+        "model": "Hillcraft Road Bike",
+        "brand": "Bicyk",
+        "price": 1500,
+        "type": "Road Bikes",
+        "description": "The Hillcraft Road Bike is a great way to get a fast and efficient ride. It's lightweight and aerodynamic, and it's equipped with all the features you need to ride long distances."
+    },
+    {
+        "model": "Hillcraft Mountain Bike",
+        "brand": "Bicyk",
+        "price": 1700,
+        "type": "Mountain Bikes",
+        "description": "The Hillcraft Mountain Bike is a great way to ride on trails and other challenging terrain. It has full suspension and all the features you need to have a good time."
+    },
+    {
+        "model": "Hillcraft Monarch 27.5",
+        "brand": "Bicyk",
+        "price": 1300,
+        "type": "Kids Mountain Bikes",
+        "description": "The Hillcraft Monarch 27.5 is a full-suspension mountain bike that's perfect for kids who want to ride on the trails. It has 120mm of travel front and rear, and it's equipped with all the features you need for a fun and safe ride."
+    },
+    {
+        "model": "Hillcraft Trail 24",
+        "brand": "Bicyk",
+        "price": 1100,
+        "type": "Kids Mountain Bikes",
+        "description": "The Hillcraft Trail 24 is a hardtail mountain bike that's perfect for kids who are getting into mountain biking. It's lightweight and easy to ride, and it has all the features you need for a fun and safe ride."
+    },
+    {
+        "model": "Hillcraft Urban 20",
+        "brand": "Bicyk",
+        "price": 800,
+        "type": "Kids City Bikes",
+        "description": "The Hillcraft Urban 20 is a city bike that's perfect for kids who want to ride to school or around town. It's lightweight and easy to ride, and it has all the features you need for a safe and comfortable ride."
+    },
+    {
+        "model": "Hillcraft Explorer 18",
+        "brand": "Bicyk",
+        "price": 700,
+        "type": "Kids Hybrid Bikes",
+        "description": "The Hillcraft Explorer 18 is a hybrid bike that's perfect for kids who want to ride on a variety of surfaces, including roads, trails, and paths. It's lightweight and easy to ride, and it has all the features you need for a safe and comfortable ride."
+    },
+    {
+        "model": "Hillcraft Balance Bike",
+        "brand": "Bicyk",
+        "price": 400,
+        "type": "Kids Balance Bikes",
+        "description": "The Hillcraft Balance Bike is a great way for kids to learn how to ride a bike without pedals. It's lightweight and easy to ride, and it helps kids develop their balance and coordination."
+    },
+    {
+        "model": "Hillcraft Kids' Helmet",
+        "brand": "Bicyk",
+        "price": 50,
+        "type": "Kids' Helmets",
+        "description": "The Hillcraft Kids' Helmet is a must-have for any kid who rides a bike. It's lightweight and comfortable to wear, and it provides essential protection in the event of a crash."
+    },
+    {
+        "model": "Hillcraft Kids' Gloves",
+        "brand": "Bicyk",
+        "price": 25,
+        "type": "Kids' Gloves",
+        "description": "The Hillcraft Kids' Gloves are a great way to protect your child's hands from the elements and from blisters. They're also comfortable to wear and they provide a good grip on the handlebars."
+    },
+    {
+        "model": "Hillcraft Kids' Water Bottle",
+        "brand": "Bicyk",
+        "price": 15,
+        "type": "Kids' Water Bottles",
+        "description": "The Hillcraft Kids' Water Bottle is a great way to keep your child hydrated while they're riding their bike. It's lightweight and easy to use, and it fits in most standard bike cages."
+    },
+    {
+        "model": "Hillcraft Kids' Kickstand",
+        "brand": "Bicyk",
+        "price": 10,
+        "type": "Kids' Kickstands",
+        "description": "The Hillcraft Kids' Kickstand is a great way to keep your child's bike upright when they're not riding it. It's easy to install and it's adjustable to fit different types of bikes."
+    },
+    {
+        "model": "Hillcraft Kids' Bike Bell",
+        "brand": "Bicyk",
+        "price": 5,
+        "type": "Kids' Bike Bells",
+        "description": "The Hillcraft Kids' Bike Bell is a great way for your child to alert other pedestrians and cyclists of their presence."
+    },
+    {
+        "model": "Hillcraft Trailblazer",
+        "brand": "Bicyk",
+        "price": 2000,
+        "type": "Mountain Bikes",
+        "description": "The Hillcraft Trailblazer is the perfect mountain bike for riders of all levels. It has a lightweight aluminum frame and a full-suspension system that can handle any terrain. The Trailblazer is also equipped with a variety of high-quality components, including a Shimano Deore drivetrain and Tektro hydraulic brakes."
+    },
+    {
+        "model": "Hillcraft Summit",
+        "brand": "Bicyk",
+        "price": 3000,
+        "type": "Mountain Bikes",
+        "description": "The Hillcraft Summit is the ultimate mountain bike for riders who demand the best. It has a carbon fiber frame and a high-end full-suspension system that can handle any terrain. The Summit is also equipped with a variety of top-of-the-line components, including a Shimano XTR drivetrain and Fox Factory suspension."
+    },
+    {
+        "model": "Hillcraft Commuter",
+        "brand": "Bicyk",
+        "price": 1500,
+        "type": "Hybrid Bikes",
+        "description": "The Hillcraft Commuter is the perfect bike for riders who want to get around town quickly and efficiently. It has a lightweight aluminum frame and a variety of features that make it ideal for commuting, such as a comfortable saddle, a rear rack, and fenders."
+    },
+    {
+        "model": "Hillcraft Adventure",
+        "brand": "Bicyk",
+        "price": 2500,
+        "type": "Hybrid Bikes",
+        "description": "The Hillcraft Adventure is the perfect bike for riders who want to explore new places. It has a lightweight aluminum frame and a variety of features that make it ideal for long-distance riding, such as a large carrying capacity, a comfortable saddle, and a wide range of gears."
+    },
+    {
+        "model": "Hillcraft City Cruiser",
+        "brand": "Bicyk",
+        "price": 1000,
+        "type": "City Bikes",
+        "description": "The Hillcraft City Cruiser is the perfect bike for riders who want to cruise around town in style. It has a comfortable upright riding position and a variety of features that make it ideal for city riding, such as a step-through frame, a basket, and a bell."
+    },
+    {
+        "model": "Hillcraft Comfort Bike",
+        "brand": "Bicyk",
+        "price": 1200,
+        "type": "Comfort Bikes",
+        "description": "The Hillcraft Comfort Bike is the perfect bike for riders who want a comfortable and easy-to-ride bike. It has a plush ride quality and a variety of features that make it ideal for casual riding, such as a wide saddle, a step-through frame, and a suspension seatpost."
+    },
+    {
+        "model": "Hillcraft Kids' Mountain Bike",
+        "brand": "Bicyk",
+        "price": 700,
+        "type": "Kids Mountain Bikes",
+        "description": "The Hillcraft Kids' Mountain Bike is the perfect bike for young riders who want to explore the trails. It has a lightweight aluminum frame and a variety of features that make it ideal for kids, such as a smaller wheel size, a lower gearing range, and adjustable handlebars."
+    },
+    {
+        "model": "Hillcraft Kids' Hybrid Bike",
+        "brand": "Bicyk",
+        "price": 600,
+        "type": "Kids Hybrid Bikes",
+        "description": "The Hillcraft Kids' Hybrid Bike is the perfect bike for young riders who want a versatile bike that can be ridden on a variety of surfaces. It has a lightweight aluminum frame and a variety of features that make it ideal for kids, such as a smaller wheel size, a lower gearing range, and adjustable handlebars."
+    },
+    {
+        "model": "Hillcraft Kids' City Bike",
+        "brand": "Bicyk",
+        "price": 500,
+        "type": "Kids City Bikes",
+        "description": "The Hillcraft Kids' City Bike is the perfect bike for young riders who want a comfortable and easy-to-ride bike for getting around town. It has a lightweight aluminum frame and a variety of features that make it"
+    },
+    {
+        "model": "Eva 291 Pro",
+        "brand": "Eva",
+        "price": 4200,
+        "type": "Mountain Bikes",
+        "description": "The Eva 291 Pro is the top-of-the-line model in the Eva 291 series. It features a carbon fiber frame, a high-end suspension system, and a variety of other premium components. This bike is designed for serious cross-country riders who demand the best performance."
+    },
+    {
+        "model": "Eva 291 Elite",
+        "brand": "Eva",
+        "price": 3800,
+        "type": "Mountain Bikes",
+        "description": "The Eva 291 Elite is a step up from the Eva 291. It features a lighter aluminum frame and a higher-end suspension system. This bike is a great choice for riders who want a high-performance cross-country bike without breaking the bank."
+    },
+    {
+        "model": "Eva 291 Sport",
+        "brand": "Eva",
+        "price": 3000,
+        "type": "Mountain Bikes",
+        "description": "The Eva 291 Sport is the entry-level model in the Eva 291 series. It features an aluminum frame and a basic suspension system. This bike is a great choice for riders who are new to cross-country riding or who are looking for a more affordable option."
+    },
+    {
+        "model": "Eva Trail 27.5",
+        "brand": "Eva",
+        "price": 2500,
+        "type": "Mountain Bikes",
+        "description": "The Eva Trail 27.5 is a versatile trail bike that is designed for a variety of terrain. It features an aluminum frame, a 120mm travel suspension fork, and 27.5-inch wheels. This bike is a great choice for riders who want a bike that can handle everything from cross-country trails to technical descents."
+    },
+    {
+        "model": "Eva Enduro 27.5",
+        "brand": "Eva",
+        "price": 3500,
+        "type": "Mountain Bikes",
+        "description": "The Eva Enduro 27.5 is a burly enduro bike that is designed for aggressive riding. It features an aluminum frame, a 160mm travel suspension fork, and 27.5-inch wheels. This bike is a great choice for riders who want a bike that can handle the most challenging trails."
+    },
+    {
+        "model": "Eva Urban 1",
+        "brand": "Eva",
+        "price": 1500,
+        "type": "City Bikes",
+        "description": "The Eva Urban 1 is a stylish and comfortable city bike that is perfect for commuting or cruising around town. It features an aluminum frame, a comfortable saddle, and a variety of features that make it ideal for city riding, such as a step-through frame, a basket, and a bell."
+    },
+    {
+        "model": "Eva Comfort 2",
+        "brand": "Eva",
+        "price": 1800,
+        "type": "Comfort Bikes",
+        "description": "The Eva Comfort 2 is a comfortable and easy-to-ride bike that is perfect for casual riding. It features an aluminum frame, a plush saddle, and a variety of features that make it ideal for relaxed riding, such as a step-through frame, a suspension seatpost, and wide tires."
+    },
+    {
+        "model": "Eva Kids 24",
+        "brand": "Eva",
+        "price": 600,
+        "type": "Kids Mountain Bikes",
+        "description": "The Eva Kids 24 is a great bike for young riders who want to explore the trails. It features an aluminum frame, a 100mm travel suspension fork, and 24-inch wheels. This bike is a great choice for kids who are ready for a more challenging bike."
+    },
+    {
+        "model": "XBN 3.0 Alloy",
+        "brand": "Breakout",
+        "price": 1050,
+        "type": "Road Bikes",
+        "description": "The XBN 3.0 Alloy is the next step up in our road bike lineup, and it offers a significant upgrade in performance over the XBN 2.1. The frame is made from the same lightweight and durable 6061 alloy, but it's also triple-butted for even more weight savings. The fork is also made from carbon fiber, and it's designed to absorb bumps and vibrations for a smoother ride. The XBN 3.0 is also equipped with a Shimano Sora drivetrain, which offers more precise shifting than the Claris drivetrain on the XBN 2.1."
+    },
+    {
+        "model": "XBN 4.0 Carbon",
+        "brand": "Breakout",
+        "price": 1500,
+        "type": "Road Bikes",
+        "description": "The XBN 4.0 Carbon is our flagship road bike, and it's built with the highest quality components. The frame is made from lightweight and stiff carbon fiber, and it's paired with a full carbon fork. The XBN 4.0 is also equipped with a Shimano 105 drivetrain, which offers the smoothest and most precise shifting available."
+    },
+    {
+        "model": "XBN 5.0 Carbon Ultegra",
+        "brand": "Breakout",
+        "price": 2000,
+        "type": "Road Bikes",
+        "description": "The XBN 5.0 Carbon Ultegra is the top of the line road bike from Breakout. It's built with the same carbon fiber frame and fork as the XBN 4.0, but it's equipped with a Shimano Ultegra drivetrain, which is the lightest and most efficient drivetrain available. The XBN 5.0 also features high-end components such as Shimano Ultegra brakes and wheels."
+    },
+    {
+        "model": "XBN 6.0 Dura-Ace",
+        "brand": "Breakout",
+        "price": 3000,
+        "type": "Road Bikes",
+        "description": "The XBN 6.0 Dura-Ace is the most expensive road bike from Breakout, but it's also the lightest and fastest. It's built with the same carbon fiber frame and fork as the XBN 4.0 and XBN 5.0, but it's equipped with a Shimano Dura-Ace drivetrain, which is the lightest and most efficient drivetrain available. The XBN 6.0 also features high-end components such as Shimano Dura-Ace brakes and wheels."
+    },
+    {
+        "model": "XBN 7.0 Aero",
+        "brand": "Breakout",
+        "price": 2500,
+        "type": "Road Bikes",
+        "description": "The XBN 7.0 Aero is a road bike that's designed for speed. It has an aerodynamic frame and fork, as well as deep-section wheels. The XBN 7.0 Aero is also equipped with a Shimano 105 drivetrain and Shimano 105 brakes."
+    },
+    {
+        "model": "XBN 8.0 Endurance",
+        "brand": "Breakout",
+        "price": 1800,
+        "type": "Road Bikes",
+        "image": "https://i.imgur.com/XBN8Endurance.jpg",
+        "description": "The XBN 8.0 Endurance is a road bike that's designed for comfort. It has a relaxed geometry and a plush ride. The XBN 8.0 Endurance is also equipped with a Shimano 105 drivetrain and Shimano 105 brakes."
+    },
+    {
+        "model": "XBN 9.0 Gravel",
+        "brand": "Breakout",
+        "price": 2000,
+        "type": "Gravel Bikes",
+        "image": "https://i.imgur.com/XBN9Gravel.jpg",
+        "description": "The XBN 9.0 Gravel is a versatile bike that can be ridden on a variety of surfaces, including roads, gravel, and dirt trails. It has a lightweight aluminum frame and a carbon fork, as well as wide tires that can handle any terrain. The XBN 9.0 Gravel is also equipped with a Shimano GRX drivetrain and Shimano GRX brakes."
+    },
+    {
+        "model": "XBN 10.0 Mountain",
+        "brand": "Breakout",
+        "price": 2500,
+        "type": "Mountain Bikes",
+        "image": "https://i.imgur.com/XBN10Mountain.jpg",
+        "description": "The XBN 10.0 Mountain is a full-suspension mountain bike that's designed for tackling any trail. It has a lightweight aluminum frame and a carbon fork, as well as 120mm of travel in the front and rear suspension. The XBN 10.0 Mountain is also equipped with a Shimano Deore drivetrain and Shimano Deore brakes."
+    },
+    {
+        "model": "XBN 11.0 Electric",
+        "brand": "Breakout",
+        "price": 3000,
+        "type": "Electric Bikes",
+        "image": "https://i.imgur.com/XBN11Electric.jpg",
+        "description": "The XBN 11.0 Electric is a hybrid electric bike that's perfect for commuting, running errands, and exploring. It has a lightweight aluminum frame and a carbon fork, as well as a powerful electric motor that can assist you up to 20 miles per hour. The XBN 11.0 Electric is also equipped with a Shimano Deore drivetrain and Shimano Deore brakes."
+    },
+    {
+        "model": "ThrillCycle",
+        "brand": "BikeShind",
+        "price": 815,
+        "type": "Commuter Bikes",
+        "image": "https://i.imgur.com/ThrillCycle.jpg",
+        "description": "An artsy, retro-inspired bicycle that’s as functional as it is pretty: The ThrillCycle steel frame offers a smooth ride. A 9-speed drivetrain has enough gears for coasting in the city, but we wouldn’t suggest taking it to the mountains. Fenders protect you from mud, and a rear basket lets you transport groceries, flowers and books. The ThrillCycle comes with a limited lifetime warranty, so this little guy will last you long past graduation."
+    },
+    {
+        "model": "Breezer Uptown 8 EQ",
+        "brand": "Breezer",
+        "price": 1050,
+        "type": "Commuter Bikes",
+        "image": "https://i.imgur.com/BreezerUptown8EQ.jpg",
+        "description": "The Breezer Uptown 8 EQ is a comfortable and versatile commuter bike. It has a lightweight aluminum frame, a carbon fork, and a plush suspension seatpost. The Uptown 8 EQ is also equipped with a Shimano 8-speed drivetrain and Shimano Deore brakes. It also comes with a variety of accessories, including a rear rack, fenders, a chain guard, and lights."
+    },
+    {
+        "model": "Giant Escape 3",
+        "brand": "Giant",
+        "price": 700,
+        "type": "Commuter Bikes",
+        "image": "https://i.imgur.com/GiantEscape3.jpg",
+        "description": "The Giant Escape 3 is an affordable and reliable commuter bike. It has a lightweight aluminum frame, a carbon fork, and a Shimano 7-speed drivetrain. The Escape 3 is also equipped with Shimano Deore brakes and a variety of accessories, including a rear rack, fenders, and a chain guard."
+    },
+    {
+        "model": "Marin Presidio 4 EQ",
+        "brand": "Marin",
+        "price": 900,
+        "type": "Commuter Bikes",
+        "image": "https://i.imgur.com/MarinPresidio4EQ.jpg",
+        "description": "The Marin Presidio 4 EQ is a comfortable and stylish commuter bike. It has a lightweight aluminum frame, a carbon fork, and a plush suspension seatpost. The Presidio 4 EQ is also equipped with a Shimano 8-speed drivetrain and Shimano Deore brakes. It also comes with a variety of accessories, including a rear rack, fenders, a chain guard, and lights."
+    },
+    {
+        "model": "Trek Dual Sport 2 EQ",
+        "brand": "Trek",
+        "price": 850,
+        "type": "Commuter Bikes",
+        "image": "https://i.imgur.com/TrekDualSport2EQ.jpg",
+        "description": "The Trek Dual Sport 2 EQ is a versatile bike that can be ridden on a variety of surfaces, including roads, gravel, and dirt trails. It has a lightweight aluminum frame, a carbon fork, and a plush suspension seatpost. The Dual Sport 2 EQ is also equipped with a Shimano 8-speed drivetrain and Shimano Deore brakes. It also comes with a variety of accessories, including a rear rack, fenders, a chain guard, and lights."
+    },
+    {
+        "model": "Specialized Sirrus X 2.0",
+        "brand": "Specialized",
+        "price": 1100,
+        "type": "Commuter Bikes",
+        "image": "https://i.imgur.com/SpecializedSirusX2.0.jpg",
+        "description": "The Specialized Sirrus X 2.0 is a comfortable and stylish commuter bike. It has a lightweight aluminum frame, a carbon fork, and a plush suspension seatpost. The Sirrus X 2.0 is also equipped with a Shimano 9-speed drivetrain and Shimano Deore brakes. It also comes with a variety of accessories, including a rear rack, fenders, a chain guard, and lights."
+    },
+    {
+        "model": "Canyon Commuter 7",
+        "brand": "Canyon",
+        "price": 1200,
+        "type": "Commuter Bikes",
+        "image": "https://i.imgur.com/CanyonCommuter7.jpg",
+        "description": "The Canyon Commuter 7 is a versatile and stylish commuter bike. It has a lightweight aluminum frame, a carbon fork, and a plush suspension seatpost. The Commuter 7 is also equipped with a Shimano 11-speed drivetrain and Shimano Deore brakes. It also comes with a variety of accessories, including a rear rack, fenders, a chain guard, and lights."
+    },
+    {
+    "model": "RADCity 5 Plus Electric Bike",
+    "brand": "Rad Power Bikes",
+    "price": 1599,
+    "type": "eBikes",
+    "image": "https://radpowerbikes.com/products/radcity-5-plus-electric-bike",
+    "description": "The RADCity 5 Plus Electric Bike is a versatile and affordable electric bike that is perfect for commuting, running errands, and exploring. It has a powerful motor and a large battery that can handle hills and long distances with ease. It also has a variety of features that make it comfortable and practical, such as a step-through frame, a rear rack, and fenders."
+  },
+  {
+    "model": "Aventon Level Step-Through Electric Bike",
+    "brand": "Aventon Bikes",
+    "price": 1199,
+    "type": "eBikes",
+    "image": "https://aventon.com/products/level-step-through-electric-bike",
+    "description": "The Aventon Level Step-Through Electric Bike is a stylish and affordable electric bike that is perfect for urban riding. It has a lightweight frame and a powerful motor that can easily handle city streets and hills. It also has a variety of features that make it comfortable and practical, such as a step-through frame, a rear rack, and fenders."
+  },
+  {
+    "model": "Specialized Turbo Como 4.0 Electric Bike",
+    "brand": "Specialized Bikes",
+    "price": 2599,
+    "type": "eBikes",
+    "image": "https://specialized.com/us/en/turbo-como-4-0/p/183227",
+    "description": "The Specialized Turbo Como 4.0 Electric Bike is a comfortable and stylish electric bike that is perfect for commuting and running errands. It has a powerful motor and a large battery that can handle hills and long distances with ease. It also has a variety of features that make it comfortable and practical, such as a step-through frame, a rear rack, and fenders."
+  },
+  {
+    "model": "Trek Verve+ 3 Lowstep Electric Bike",
+    "brand": "Trek Bikes",
+    "price": 2199,
+    "type": "eBikes",
+    "image": "https://trekbikes.com/us/en_US/bikes/electric-bikes/comfort-electric-bikes/verve/verve-3-lowstep-electric-bike/p/35006/",
+    "description": "The Trek Verve+ 3 Lowstep Electric Bike is a comfortable and stylish electric bike that is perfect for commuting and running errands. It has a powerful motor and a large battery that can handle hills and long distances with ease. It also has a variety of features that make it comfortable and practical, such as a step-through frame, a rear rack, and fenders."
+  },
+  {
+    "model": "Cannondale Treadwell Neo EQ Electric Bike",
+    "brand": "Cannondale Bikes",
+    "price": 2699,
+    "type": "eBikes",
+    "image": "https://www.cannondale.com/en-us/bikes/electric-bikes/city-electric-bikes/treadwell-neo-eq/women-s-treadwell-neo-eq/p/32128",
+    "description": "The Cannondale Treadwell Neo EQ Electric Bike is a versatile and stylish electric bike that is perfect for commuting, running errands, and exploring. It has a powerful motor and a large battery that can handle hills and long distances with ease. It also has a variety of features that make it comfortable and practical, such as a step-through frame, a rear rack, and fenders."
+  },
+  {
+    "model": "Giant Escape+ 3 Electric Bike",
+    "brand": "Giant Bicycles",
+    "price": 1999,
+    "type": "eBikes",
+    "image": "https://www.giantbicycles.com/us/escape-3-electric",
+    "description": "The Giant Escape+ 3 Electric Bike is a comfortable and affordable electric bike that is perfect for commuting and running errands. It has a powerful motor and a large battery that can handle hills and long distances with ease. It also has a variety of features that make it comfortable and practical, such as a step-through frame, a rear rack, and fenders."
+  },
+  {
+    "model": "Marin Presidio e3 Electric Bike",
+    "brand": "Marin Bicycles",
+    "price": 2299,
+    "type": "eBikes",
+    "image": "https://www.marinbikes.com/bikes/2023/presidio-e3",
+    "description": "The Marin Presidio e3 Electric Bike is a versatile and comfortable electric bike that is perfect for commuting, running errands, and exploring. It has a powerful motor and a large battery that can handle hills and long distances with ease. It also has a variety of features that make it comfortable and practical, such as a step-through frame, a rear rack, and fenders."
+  },
+  {
+    "model": "Specialized Turbo Vado SL 4.0 EQ Electric Bike",
+    "brand": "Specialized Bikes",
+    "price": 2999,
+    "type": "eBikes",
+    "image": "https://specialized.com/us/en/turbo-vado-sl-4-0-eq/p/183219",
+    "description": "The Specialized Turbo Vado SL 4.0 EQ Electric Bike is a lightweight and agile electric bike that is perfect for commuting and exploring. It has a powerful motor and a large battery that can handle hills and long distances with ease. It also has a variety of features that make it comfortable and practical, such as a rear rack, fenders, and lights."
+  },
+  {
+    "model": "Canyon Commuter 7 Electric Bike",
+    "brand": "Canyon Bikes",
+    "price": 2799,
+    "type": "eBikes",
+    "image": "https://www.canyon.com/en-us/ebikes/city/commuter/commuter-7/2361.html?dwvar_2361_pv_rahmenfarbe=GN",
+    "description": "The Canyon Commuter 7 Electric Bike is a versatile and comfortable electric bike that is perfect for commuting, running errands, and exploring. It has a powerful motor and a large battery that can handle hills and long distances with ease. It also has a variety of features that make it comfortable and practical, such as a rear rack, fenders, and lights."
+  },
+  {
+    "model": "Trek Domane+ LT 4 Electric Bike",
+    "brand": "Trek Bikes",
+    "price": 3299,
+    "type": "eBikes",
+    "image": "https://trekbikes.com/us/en/bikes/electric-bikes/road-electric-bikes/domane/domane-lt-4-electric-bike/p/35005/",
+    "description": "The Trek Domane+ LT 4 Electric Bike is a comfortable and versatile electric bike that is perfect for commuting, touring, and exploring. It has a powerful motor and a large battery that can handle hills and long distances with ease. It also has a variety of features that make it comfortable and practical, such as a lightweight carbon frame, a plush suspension fork, and a variety of mounting points for accessories."
+  },
+  {
+    "model": "Cannondale Synapse Carbon Neo EQ Electric Bike",
+    "brand": "Cannondale Bikes",
+    "price": 4299,
+    "type": "eBikes",
+    "image": "https://www.cannondale.com/en-us/bikes/electric-bikes/endurance-road-electric-bikes/synapse-carbon-neo-eq/synapse-carbon-neo-eq-2/p/32106",
+    "description": "The Cannondale Synapse Carbon Neo EQ Electric Bike is a lightweight and high-performance electric bike that is perfect for road cycling and commuting. It has a powerful motor and a large battery that can handle hills and long distances with ease. It also has a variety of features that make it comfortable and practical, such as a lightweight carbon frame, a plush suspension fork, and a variety of mounting points for accessories."
+  },
+  {
+    "model": "Specialized Turbo Creo SL Expert EVO Electric Bike",
+    "brand": "Specialized Bikes",
+    "price": 5999,
+    "type": "eBikes",
+    "image": "https://specialized.com/us/en/turbo-creo-sl-expert-evo/p/183230",
+    "description": "The Specialized Turbo Creo SL Expert EVO Electric Bike is the top-of-the-line electric road bike from Specialized. It is incredibly lightweight and responsive, and it has a powerful motor and a large battery that can handle any hill or distance. It also has a variety of high-end components, such as a Shimano Ultegra drivetrain and hydraulic disc brakes."
+  },
+  {
+    "model": "Chook Air 5",
+    "brand": "Nord",
+    "price": 815,
+    "type": "Kids Mountain Bikes",
+    "image": "https://nordcycles.com/images/bikes/kids/chook-air-5.jpg",
+    "description": "The Chook Air 5 gives kids aged six years and older a durable and uberlight mountain bike for their first experience on tracks and easy cruising through forests and fields. The lower top tube makes it easy to mount and dismount in any situation, giving your kids greater safety on the trails. The Chook Air 5 is the perfect intro to mountain biking."
+  },
+  {
+    "model": "Frog 55",
+    "brand": "Frog Bikes",
+    "price": 550,
+    "type": "Kids Mountain Bikes",
+    "image": "https://frogbikes.com/images/bikes/frog-55.jpg",
+    "description": "The Frog 55 is a lightweight and durable mountain bike for kids aged 7-9 years old. It has a lightweight aluminum frame, a suspension fork, and 24-inch wheels. The Frog 55 is perfect for kids who are getting started in mountain biking or who want to upgrade from a smaller bike."
+  },
+  {
+    "model": "Co-op Cycles REV 24",
+    "brand": "REI",
+    "price": 569,
+    "type": "Kids Mountain Bikes",
+    "image": "https://www.rei.com/images/product/151196/co-op-cycles-rev-24-kids-mountain-bike-2022-a_large.jpg",
+    "description": "The Co-op Cycles REV 24 is a versatile and affordable mountain bike for kids aged 7-10 years old. It has a lightweight aluminum frame, a suspension fork, and 24-inch wheels. The REV 24 is perfect for kids who want to ride on a variety of terrain, from trails to pavement."
+  },
+  {
+    "model": "Diamondback Sync'r 20",
+    "brand": "Diamondback Bikes",
+    "price": 450,
+    "type": "Kids Mountain Bikes",
+    "image": "https://www.diamondback.com/images/product/syncr-20-2023-a_large.jpg",
+    "description": "The Diamondback Sync'r 20 is a great mountain bike for kids aged 5-7 years old. It has a lightweight aluminum frame, a suspension fork, and 20-inch wheels. The Sync'r 20 is perfect for kids who are getting started in mountain biking or who want to upgrade from a smaller bike."
+  },
+  {
+    "model": "Trek Roscoe 20",
+    "brand": "Trek Bikes",
+    "price": 429,
+    "type": "Kids Mountain Bikes",
+    "image": "https://trekbikes.com/us/en/bikes/kids-bikes/mountain-bikes/roscoe/roscoe-20/p/33345/",
+    "description": "The Trek Roscoe 20 is a fun and durable mountain bike for kids aged 6-8 years old. It has a lightweight aluminum frame, a suspension fork, and 20-inch wheels. The Roscoe 20 is perfect for kids who want to explore trails and have fun on the dirt."
+  },
+  {
+    "model": "Cannondale Trail 20",
+    "brand": "Cannondale Bikes",
+    "price": 499,
+    "type": "Kids Mountain Bikes",
+    "image": "https://www.cannondale.com/en-us/bikes/kids-bikes/trail-bikes/trail/trail-20/p/32137",
+    "description": "The Cannondale Trail 20 is a lightweight and fast mountain bike for kids aged 6-8 years old. It has an aluminum frame, a suspension fork, and 20-inch wheels. The Trail 20 is perfect for kids who want to ride on trails and have fun on the dirt."
+  },
+  {
+    "model": "Specialized Jett 20",
+    "brand": "Specialized Bikes",
+    "price": 549,
+    "type": "Kids Mountain Bikes",
+    "image": "https://www.specialized.com/us/en/jett-20/p/187647",
+    "description": "The Specialized Jett 20 is a lightweight and durable mountain bike for kids aged 6-8 years old. It has an aluminum frame, a suspension fork, and 20-inch wheels. The Jett 20 is perfect for kids who want to ride on trails and have fun on the dirt."
+  },
+  {
+    "model": "Giant XTC Jr 20",
+    "brand": "Giant Bicycles",
+    "price": 599,
+    "type": "Kids Mountain Bikes",
+    "image": "https://www.giantbicycles.com/us/xtc-jr-20",
+    "description": "The Giant XTC Jr 20 is a fast and lightweight mountain bike for kids aged 6-8 years old. It has an aluminum frame, a suspension fork, and 20-inch wheels. The XTC Jr 20 is perfect for kids who want to race or ride on challenging trails."
+  },
+  {
+    "model": "Marin El Roy 20",
+    "brand": "Marin Bicycles",
+    "price": 529,
+    "type": "Kids Mountain Bikes",
+    "image": "https://www.marinbikes.com/bikes/2023/el-roy-20",
+    "description": "The Marin El Roy 20 is a fun and versatile mountain bike for kids aged 6-8 years old. It has an aluminum frame, a suspension fork, and 20-inch wheels. The El Roy 20 is perfect for kids who want to ride on trails, dirt jumps, and pump tracks."
+  },
+  {
+    "model": "Canyon Exceed JR 20",
+    "brand": "Canyon Bikes",
+    "price": 649,
+    "type": "Kids Mountain Bikes",
+    "image": "https://www.canyon.com/en-us/kids-bikes/exceed-jr/exceed-jr-20/2360.html?dwvar_2360_pv_rahmenfarbe=GN",
+    "description": "The Canyon Exceed JR 20 is a lightweight and fast cross-country mountain bike for kids aged 6-8 years old. It has an aluminum frame, a suspension fork, and 20-inch wheels. The Exceed JR 20 is perfect for kids who want to race or ride on challenging trails."
+  },
+  {
+    "model": "Pivot Trail 20",
+    "brand": "Pivot Cycles",
+    "price": 749,
+    "type": "Kids Mountain Bikes",
+    "image": "https://www.pivotcycles.com/na/product/trail-20/",
+    "description": "The Pivot Trail 20 is a high-performance mountain bike for kids aged 6-8 years old. It has a lightweight aluminum frame, a suspension fork, and 20-inch wheels. The Trail 20 is perfect for kids who want to ride on challenging trails and have fun on the dirt."
+  },
+  {
+    "model": "Yeti ARC 20",
+    "brand": "Yeti Cycles",
+    "price": 849,
+    "type": "Kids Mountain Bikes",
+    "image": "https://www.yeticycles.com/bikes/arc/2023",
+    "description": "The Yeti ARC 20 is a premium mountain bike for kids aged 6-8 years old. It has a lightweight carbon fiber frame, a suspension fork, and 20-inch wheels. The ARC 20 is perfect for kids who want to ride on the most challenging trails and have the best possible performance."
+  },
+  {
+    "model": "Intense Primer 20",
+    "brand": "Intense Cycles",
+    "price": 949,
+    "type": "Kids Mountain Bikes",
+    "image": "https://intensecycles.com/bikes/primer-20/",
+    "description": "The Intense Primer 20 is a high-performance mountain bike for kids aged 6-8 years old. It has a lightweight aluminum frame, a suspension fork, and 20-inch wheels. The Primer 20 is perfect for kids who want to ride on challenging trails and have fun on the dirt."
+  },
+  {
+    "model": "Evil Chamois Hagar 20",
+    "brand": "Evil Bikes",
+    "price": 1049,
+    "type": "Kids Mountain Bikes",
+    "image": "https://www.evil-bikes.com/chamois-hagar-20/",
+    "description": "The Evil Chamois Hagar 20 is a premium mountain bike for kids aged 6-8 years old. It has a lightweight aluminum frame, a suspension fork, and 20-inch wheels. The Chamois Hagar 20 is perfect for kids who want to ride on the most challenging trails and have the best possible performance."
+  },
+  {
+    "model": "Alchemy Jett 20",
+    "brand": "Alchemy Bicycles",
+    "price": 1149,
+    "type": "Kids Mountain Bikes",
+    "image": "https://alchemybicycles.com/products/jett-20/",
+    "description": "The Alchemy Jett 20 is a high-end mountain bike for kids aged 6-8 years old. It has a lightweight carbon fiber frame, a suspension fork, and 20-inch wheels. The Jett 20 is perfect for kids who want to ride on the most challenging trails and have the best possible performance."
+  },
+  {
+    "model": "Commencal Meta AM 20",
+    "brand": "Commencal Bikes",
+    "price": 1249,
+    "type": "Kids Mountain Bikes",
+    "image": "https://www.commencalbikes.com/meta-am-20/",
+    "description": "The Commencal Meta AM 20 is a premium enduro mountain bike for kids aged 6-8 years old. It has a lightweight aluminum frame, a suspension fork and shock, and 20-inch wheels. The Meta AM 20 is perfect for kids who want to ride on the most challenging trails and have the best possible performance."
+  },
+  {
+    "model": "Strider 12 Classic",
+    "brand": "Strider Bikes",
+    "price": 170,
+    "type": "Balance bikes",
+    "image": "https://striderbikes.com/products/strider-12-classic-balance-bike",
+    "description": "The Strider 12 Classic is a balance bike that helps kids learn to ride a bike without pedals. It has a lightweight aluminum frame and 12-inch tires. The Strider 12 Classic is perfect for kids aged 18 months to 5 years old."
+  },
+  {
+    "model": "GOMO Kids Bike 12 Inch",
+    "brand": "GOMO",
+    "price": 140,
+    "type": "Kids bikes",
+    "image": "https://www.amazon.com/GOMO-Kids-Bike-12-Inch-Training-Wheels/dp/B085F67W7B/i/616f1m-j38L._SL1500_.jpg",
+    "description": "The GOMO Kids Bike 12 Inch is a lightweight and durable kids bike that is perfect for kids aged 3-5 years old. It has a steel frame, 12-inch wheels, and training wheels. The GOMO Kids Bike 12 Inch is also equipped with a bell, basket, and kickstand."
+  },
+  {
+    "model": "Royalbaby Freestyle Kids Bike 12 Inch",
+    "brand": "Royalbaby",
+    "price": 150,
+    "type": "Kids bikes",
+    "image": "https://www.amazon.com/Royalbaby-Freestyle-Kids-Bike-12-Inch-Multicolored/dp/B0866TZ23D/i/71Xg9p0sGKL._SL1500_.jpg",
+    "description": "The Royalbaby Freestyle Kids Bike 12 Inch is a stylish and fun kids bike that is perfect for kids aged 3-5 years old. It has a lightweight aluminum frame, 12-inch wheels, and training wheels. The Royalbaby Freestyle Kids Bike 12 Inch is also equipped with a bell, basket, and kickstand."
+  },
+  {
+    "model": "Schwinn Elm Toddler Bike 12 Inch",
+    "brand": "Schwinn",
+    "price": 160,
+    "type": "Kids bikes",
+    "image": "https://www.amazon.com/Schwinn-Elm-Toddler-Bike-12-Inch/dp/B081Y193R4/i/719623c3ZKL._SL1500_.jpg",
+    "description": "The Schwinn Elm Toddler Bike 12 Inch is a durable and comfortable kids bike that is perfect for kids aged 3-5 years old. It has a steel frame, 12-inch wheels, and training wheels. The Schwinn Elm Toddler Bike 12 Inch is also equipped with a bell, basket, and kickstand."
+  },
+  {
+    "model": "Huffy Seaside Kids Bike 12 Inch",
+    "brand": "Huffy",
+    "price": 130,
+    "type": "Kids bikes",
+    "image": "https://www.target.com/p/huffy-seaside-kids-bike-12-inch-multicolored/-/A-81734320",
+    "description": "The Huffy Seaside Kids Bike 12 Inch is a fun and affordable kids bike that is perfect for kids aged 3-5 years old. It has a lightweight aluminum frame, 12-inch wheels, and training wheels. The Huffy Seaside Kids Bike 12 Inch is also equipped with a bell, basket, and kickstand."
+  },
+  {
+    "model": "Dynacraft Magna Trail Kids Bike 12 Inch",
+    "brand": "Dynacraft",
+    "price": 140,
+    "type": "Kids bikes",
+    "image": "https://www.walmart.com/ip/Dynacraft-Magna-Trail-Kids-Bike-12-Inch-Black-Orange/211121629",
+    "description": "The Dynacraft Magna Trail Kids Bike 12 Inch is a versatile kids bike that is perfect for kids aged 3-5 years old. It has a lightweight aluminum frame, 12-inch wheels, and training wheels. The Dynacraft Magna Trail Kids Bike 12 Inch is also equipped with a bell, basket, and kickstand."
+  },
+  {
+    "model": "Mongoose Switch Kids Bike 12 Inch",
+    "brand": "Mongoose",
+    "price": 170,
+    "type": "Kids bikes",
+    "image": "https://www.amazon.com/Mongoose-Switch-Kids-Bike-12-Inch/dp/B011CWH5Q4/i/61w%2BbV55r6L._SL1500_.jpg",
+    "description": "The Mongoose Switch Kids Bike 12 Inch is a unique kids bike that can be converted from a balance bike to a pedal bike. It has a lightweight aluminum frame, 12-inch wheels, and a coaster brake. The Mongoose Switch Kids Bike 12 Inch is perfect for kids aged 2-5 years old."
+  },
+  {
+    "model": "Redline BMX 12 Inch Kids Bike",
+    "brand": "Redline",
+    "price": 190,
+    "type": "Kids bikes",
+    "image": "https://www.redlinebicycles.com/bikes/kids/12-inch-bikes/mx-12-boy/mx-12-boy-gloss-teal-black.jpg",
+    "description": "The Redline BMX 12 Inch Kids Bike is a high-performance kids bike that is perfect for kids aged 4-6 years old. It has a lightweight aluminum frame, 12-inch wheels, and a coaster brake. The Redline BMX 12 Inch Kids Bike is perfect for kids who want to get into BMX racing or just have fun riding on dirt tracks and jumps."
+  },
+  {
+    "model": "GT Mach One 12 Inch Kids Bike",
+    "brand": "GT Bicycles",
+    "price": 210,
+    "type": "Kids bikes",
+    "image": "https://www.gtbicycles.com/us/en/bikes/kids/mach-one-12-2023",
+    "description": "The GT Mach One 12 Inch Kids Bike is a lightweight and durable kids bike that is perfect for kids aged 4-6 years old. It has an aluminum frame, 12-inch wheels, and a coaster brake. The GT Mach One 12 Inch Kids Bike is perfect for kids who want to get into mountain biking or just have fun riding on trails."
+  },
+  {
+    "model": "Specialized RipRock Coaster 12 Inch Kids Bike",
+    "brand": "Specialized Bikes",
+    "price": 230,
+    "type": "Kids bikes",
+    "image": "https://www.specialized.com/us/en/riprock-coaster-12/p/183246",
+    "description": "The Specialized RipRock Coaster 12 Inch Kids Bike is a fun and versatile kids bike that is perfect for kids aged 4-6 years old. It has an aluminum frame, 12-inch wheels, and a coaster brake. The Specialized RipRock Coaster 12 Inch Kids Bike is perfect for kids who want to ride on trails, dirt jumps, and pump tracks."
+  },
+  {
+    "model": "Canyon Wizz 12 Inch Kids Bike",
+    "brand": "Canyon Bikes",
+    "price": 250,
+    "type": "Kids bikes",
+    "image": "https://www.canyon.com/en-us/kids-bikes/wizz/wizz-12-2023/2356.html?dwvar_2356_pv_rahmenfarbe=GN",
+    "description": "The Canyon Wizz 12 Inch Kids Bike is a premium kids bike that is perfect for kids aged 4-6 years old. It has a lightweight aluminum frame, 12-inch wheels, and a coaster brake. The Canyon Wizz 12 Inch Kids Bike is perfect for kids who want to get into mountain biking or just have fun riding on trails."
+  },
+  {
+    "model": "Pivot Trail 12 Inch Kids Bike",
+    "brand": "Pivot Cycles",
+    "price": 270,
+    "type": "Kids bikes",
+    "image": "https://www.pivotcycles.com/na/product/trail-12/",
+    "description": "The Pivot Trail 12 Inch Kids Bike is a high-performance kids bike that is perfect for kids aged 4-6 years old. It has a lightweight aluminum frame, 12-inch wheels, and a coaster brake. The Pivot Trail 12 Inch Kids Bike is perfect for kids who want to get into mountain biking or just have fun riding on trails."
+  }
+]

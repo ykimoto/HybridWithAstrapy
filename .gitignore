@@ -1,0 +1,10 @@
+.env
+.ssh
+.vscode
+.bash_history
+.DS_Store
+.idea
+
+__pycache__/
+
+proto.ipynb
