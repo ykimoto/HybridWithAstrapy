@@ -1,12 +1,15 @@
 from cassandra.cluster import Cluster
 from cassandra.auth import PlainTextAuthProvider
-from cassandra.query import dict_factory, SimpleStatement
-import openai, os, uuid, time, requests, traceback
+from astrapy.db import AstraDBCollection
+
+import openai, os, uuid, requests
+import pandas as pd
+
 from traceloop.sdk import Traceloop
 from traceloop.sdk.tracing import tracing as Tracer
 from traceloop.sdk.decorators import workflow, task, agent
 from dotenv import load_dotenv, find_dotenv
-import pandas as pd
+
 import streamlit as st
 from langchain.llms import OpenAI
 
@@ -22,73 +25,71 @@ uuid_obj = str(uuid.uuid4())
 Tracer.set_correlation_id(uuid_obj)
 
 #declare constant
-ASTRA_DB_SECURE_BUNDLE_PATH=os.getenv('ASTRA_SECUREBUNDLE_PATH')
-ASTRA_DB_APPLICATION_TOKEN=os.getenv('ASTRA_DB_TOKEN')
-ASTRA_DB_KEYSPACE=os.getenv('ASTRA_KEYSPACE')
-k=os.getenv('LIMIT_TOP_K')
+ASTRA_DB_APPLICATION_TOKEN=os.getenv('ASTRA_DB_APPLICATION_TOKEN')
+ASTRA_DB_API_ENDPOINT=os.getenv('ASTRA_DB_API_ENDPOINT')
+ASTRA_COLLECTION=os.getenv('ASTRA_COLLECTION')
+
 openai.api_key = os.getenv('OPENAI_API_KEY')
 model_id = "text-embedding-ada-002"
+
+k=os.getenv('LIMIT_TOP_K')
+
 llm = OpenAI(openai_api_key=os.environ['OPENAI_API_KEY'], temperature=0.1)
 
 @st.cache_resource()
-@task(name="Create Cassandra Connection")
+@task(name="Establish Astra DB Connection and get Collection")
 def create_connection():
-    #Establish Connectivity
+    #Establish Connectivity and get the collection
     st.write(":hourglass: Establishing AstraDB Connection...")
-    cluster = Cluster(
-    cloud={
-        "secure_connect_bundle": ASTRA_DB_SECURE_BUNDLE_PATH,
-    },
-    auth_provider=PlainTextAuthProvider(
-        "token",
-        ASTRA_DB_APPLICATION_TOKEN,
-    ),
+    collection = AstraDBCollection(
+        collection_name=ASTRA_COLLECTION, token=ASTRA_DB_APPLICATION_TOKEN, api_endpoint=ASTRA_DB_API_ENDPOINT
     )
-    session = cluster.connect()
-    keyspace = ASTRA_DB_KEYSPACE
-    return session, keyspace
+    return collection
 
 @task(name="Embed Input Query")
 def embed_query(customer_input):
     # Create embedding based on same model
     st.write(":hourglass: Using OpenAI to Create Embeddings for Input Query...")
-    prompt = f"Please suggest {customer_input}? Please respond in format that would be suitable for searching a database of professional bike reviews."
-    embedding = openai.Embedding.create(input=prompt, model=model_id)['data'][0]['embedding']
+    prompt = f"Suggest a response to the customer inquiry: {customer_input}? Respond in format that would be suitable for searching a database of professional bike reviews."
+    embedding = openai.embeddings.create(input=prompt, model=model_id).data[0].embedding
     return embedding
 
 @task(name="Build top k simple query")
-def build_simple_query(customer_input, keyspace, k):
+def build_simple_query(customer_input, k):
     st.write(":hourglass: Building Simple Database Query...")
-    embedding = embed_query(customer_input)
-    query = SimpleStatement(
-    f"""
-    SELECT *
-    FROM {keyspace}.bikes
-    ORDER BY description_embedding ANN OF {embedding} LIMIT {k};
-    """
-    )
-    return query
+    params = {}
+    params['embedding'] = embed_query(customer_input)
+    params['k'] = k
+    
+    return params
 
 @task(name="Build top k hybrid query")
-def build_hybrid_query(customer_input, keyspace, filter, k):
+def build_hybrid_query(customer_input, filter, k):
     st.write(":hourglass: Building Hybrid Search Query...")
-    embedding = embed_query(customer_input)
-    hybrid_query = SimpleStatement(
-    f"""
-    SELECT *
-    FROM {keyspace}.bikes
-    WHERE type : '{filter}'
-    ORDER BY description_embedding ANN OF {embedding} LIMIT {k};
-    """
-    )
-    return hybrid_query
+    params = {}
+    params['embedding'] = embed_query(customer_input)
+    params['k'] = k
+    params['filter'] = filter
+    return params
 
 @task(name="Perform ANN search on Astra DB")
-def query_astra_db(session, query):
+def query_astra_db(collection, params):
     st.write(":hourglass: Retrieving results from Astra DB...")
-    results = session.execute(query)
-    top_results = results._current_rows
-    bikes_results = pd.DataFrame(top_results)
+    if 'filter' in params:
+        results = collection.vector_find(
+            vector=params['embedding'],
+            limit=params['k'],
+            filter={"type": params['filter']},
+            fields=["type", "brand", "model", "price", "description", "image"],
+        )
+    else:
+        results = collection.vector_find(
+            vector=params['embedding'],
+            limit=params['k'],
+            fields=["type", "brand", "model", "price", "description", "image"],
+        )
+    
+    bikes_results = pd.DataFrame(results)
     return bikes_results
 
 @task(name="Build table with Bike Reco Results")
@@ -154,18 +155,18 @@ def execute_demo_ui():
     if st.button('Ask Me! :bicyclist:'):
         if query:
             if filter:
-                session, keyspace = create_connection()
-                db_query = build_hybrid_query(query, keyspace, filter, k)
-                bikes_results = query_astra_db(session, db_query)
+                collection = create_connection()
+                db_query = build_hybrid_query(query, filter, k)
+                bikes_results = query_astra_db(collection, db_query)
                 if bikes_results.empty:
                     st.error("No Response received")                    
                 else:
                     create_display_table(bikes_results)
                     create_display_cgpt_response(bikes_results, query)
             else:
-                session, keyspace = create_connection()
-                db_query = build_simple_query(query, keyspace, k)
-                bikes_results = query_astra_db(session, db_query)
+                collection = create_connection()
+                db_query = build_simple_query(query, k)
+                bikes_results = query_astra_db(collection, db_query)
                 if bikes_results.empty:
                     st.error("No Response received")                    
                 else:

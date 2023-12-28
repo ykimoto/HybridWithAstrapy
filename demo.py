@@ -1,12 +1,12 @@
-from cassandra.cluster import Cluster
-from cassandra.auth import PlainTextAuthProvider
-from cassandra.query import dict_factory, SimpleStatement
-import openai, os, uuid, time, requests, traceback
+from astrapy.db import AstraDBCollection
+
+import openai, os, uuid, requests
+import pandas as pd
+
 from traceloop.sdk import Traceloop
 from traceloop.sdk.tracing import tracing as Tracer
 from traceloop.sdk.decorators import workflow, task, agent
 from dotenv import load_dotenv, find_dotenv
-import pandas as pd
 
 # Load the .env file
 if not load_dotenv(find_dotenv(),override=True):
@@ -20,64 +20,58 @@ uuid_obj = str(uuid.uuid4())
 Tracer.set_correlation_id(uuid_obj)
 
 #declare constant
-ASTRA_DB_SECURE_BUNDLE_PATH=os.getenv('ASTRA_SECUREBUNDLE_PATH')
-ASTRA_DB_APPLICATION_TOKEN=os.getenv('ASTRA_DB_TOKEN')
-ASTRA_DB_KEYSPACE=os.getenv('ASTRA_KEYSPACE')
+ASTRA_DB_APPLICATION_TOKEN=os.getenv('ASTRA_DB_APPLICATION_TOKEN')
+ASTRA_DB_API_ENDPOINT=os.getenv('ASTRA_DB_API_ENDPOINT')
+ASTRA_COLLECTION=os.getenv('ASTRA_COLLECTION')
+
 openai.api_key = os.getenv('OPENAI_API_KEY')
 model_id = "text-embedding-ada-002"
 
-@task(name="Create Cassandra Connection")
+@task(name="Establish Astra DB Connection and get Collection")
 def create_connection():
-    #Establish Connectivity
-    cluster = Cluster(
-    cloud={
-        "secure_connect_bundle": ASTRA_DB_SECURE_BUNDLE_PATH,
-    },
-    auth_provider=PlainTextAuthProvider(
-        "token",
-        ASTRA_DB_APPLICATION_TOKEN,
-    ),
+    #Establish Connectivity and get the collection
+    collection = AstraDBCollection(
+        collection_name=ASTRA_COLLECTION, token=ASTRA_DB_APPLICATION_TOKEN, api_endpoint=ASTRA_DB_API_ENDPOINT
     )
-    session = cluster.connect()
-    keyspace = ASTRA_DB_KEYSPACE
-    return session, keyspace
+    return collection
 
 @task(name="Embed Input Query")
 def embed_query(customer_input):
     # Create embedding based on same model
-    embedding = openai.Embedding.create(input=customer_input, model=model_id)['data'][0]['embedding']
+    embedding = openai.embeddings.create(input=customer_input, model=model_id).data[0].embedding
     return embedding
 
 @task(name="Build top k simple query")
-def build_simple_query(customer_input, keyspace, k):
-    embedding = embed_query(customer_input)
-    query = SimpleStatement(
-    f"""
-    SELECT *
-    FROM {keyspace}.bikes
-    ORDER BY description_embedding ANN OF {embedding} LIMIT {k};
-    """
-    )
-    return query
+def build_simple_query(customer_input, k):
+    params = {}
+    params['embedding'] = embed_query(customer_input)
+    params['k'] = k
+    return params
 
 @task(name="Build top k hybrid query")
-def build_hybrid_query(customer_input, keyspace, filter, k):
-    embedding = embed_query(customer_input)
-    hybrid_query = SimpleStatement(
-    f"""
-    SELECT *
-    FROM {keyspace}.bikes
-    WHERE type : '{filter}'
-    ORDER BY description_embedding ANN OF {embedding} LIMIT {k};
-    """
-    )
-    return hybrid_query
+def build_hybrid_query(customer_input, filter, k):
+    params = {}
+    params['embedding'] = embed_query(customer_input)
+    params['k'] = k
+    params['filter'] = filter
+    return params
 
 @task(name="Perform ANN search on Astra DB")
-def query_astra_db(session, query):
-    results = session.execute(query)
-    top_results = results._current_rows
-    bikes_results = pd.DataFrame(top_results)
+def query_astra_db(collection, params):
+    if 'filter' in params:
+        results = collection.vector_find(
+            vector=params['embedding'],
+            limit=params['k'],
+            filter={"type": params['filter']},
+            fields=["type", "brand", "model", "price", "description"],
+        )
+    else:
+        results = collection.vector_find(
+            vector=params['embedding'],
+            limit=params['k'],
+            fields=["type", "brand", "model", "price", "description"],
+        )
+    bikes_results = pd.DataFrame(results)
     return bikes_results
 
 @task(name="Ask user for Query Mode")
@@ -98,18 +92,18 @@ def ask_user_query_mode(option1, option2):
 
 @workflow(name="Execute Bike Recommendation Query")
 def execute_demo():
-    session, keyspace = create_connection()
-    query = input("Please Enter your Bike Question: ")
-    k = input("Please Enter Number of Results: ")
+    collection = create_connection()
+    query = input("Please enter a question about Bikes in the catalog: ")
+    k = input("Please Enter the number of results to show: ")
     query_mode = ask_user_query_mode("simple", "hybrid")
 
     if(query_mode == "hybrid"):
-        filter = input("Please Enter Bike Type: (e.g. Kids Bike or eBikes)")
-        db_query = build_hybrid_query(query, keyspace, filter, k)
+        filter = input("Please enter the type of Bike you're looking for (e.g. Kids Bike, eBikes, mountain bike, commuter bike, etc): ")
+        params = build_hybrid_query(query, filter, k)
     else:
-        db_query = build_simple_query(query, keyspace, k)
+        params = build_simple_query(query, k)
 
-    bikes_results = query_astra_db(session, db_query)
+    bikes_results = query_astra_db(collection, params)
     print(bikes_results)
 
 execute_demo()
